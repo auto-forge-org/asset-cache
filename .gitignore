@@ -1,0 +1,43 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/dist/
+/asset-cache
+/cmd/*/asset-cache
+
+# Test + coverage output
+*.test
+*.out
+coverage.txt
+coverage.html
+
+# Go workspace + vendor
+go.work
+go.work.sum
+/vendor/
+
+# Dependency / module cache
+/.go/
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Local config + secrets
+.env
+.env.local
+*.local.yaml
+/config/*.local.*
+
+# Logs + runtime data
+*.log
+/tmp/
+/var/
