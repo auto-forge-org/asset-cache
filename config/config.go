@@ -8,10 +8,10 @@ import (
 )
 
 type Config struct {
-	Port         string
-	CacheSize    int
-	SignerKey    []byte
-	LogLevel     string
+	Port      string
+	CacheSize int
+	SignerKey []byte
+	LogLevel  string
 }
 
 func Load() Config {
